@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
+import React from "react";
+
+// Chakra Components
 import {
     Box,
-    Flex,
-    Text,
     Stack,
-    Icon,
     Popover,
     PopoverTrigger,
     PopoverContent,
@@ -12,119 +12,11 @@ import {
     Container,
 } from "@chakra-ui/react";
 
-import { ChevronRightIcon } from "@chakra-ui/icons";
-import React from "react";
+// Components
+import DesktopSubNav from "./DesktopSubNav";
 
-const NAV_ITEMS = [
-    {
-        label: "All Categories",
-        children: [
-            {
-                label: "Cameras",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-            {
-                label: "Lenses",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-        ],
-    },
-    {
-        label: "Home",
-        children: [
-            {
-                label: "Cameras",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-            {
-                label: "Lenses",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-        ],
-    },
-    {
-        label: "Shop",
-        children: [
-            {
-                label: "Cameras",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-            {
-                label: "Lenses",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-        ],
-    },
-    {
-        label: "About",
-    },
-    {
-        label: "Blog",
-    },
-    {
-        label: "Contact",
-    },
-    {
-        label: "All Categories",
-        children: [
-            {
-                label: "Cameras",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-            {
-                label: "Lenses",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-        ],
-    },
-    {
-        label: "Home",
-        children: [
-            {
-                label: "Cameras",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-            {
-                label: "Lenses",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-        ],
-    },
-    {
-        label: "Shop",
-        children: [
-            {
-                label: "Cameras",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-            {
-                label: "Lenses",
-                subLabel: "Trending Design to inspire you",
-                href: "#",
-            },
-        ],
-    },
-    {
-        label: "About",
-    },
-    {
-        label: "Blog",
-    },
-    {
-        label: "Contact",
-    },
-];
+// Mock
+import NAV_ITEMS from "../../../../mock/NAV_ITEMS.json";
 
 const LowerNav = () => {
     const linkColor = useColorModeValue("gray.600", "gray.200");
@@ -182,52 +74,6 @@ const LowerNav = () => {
                 </Stack>
             </Container>
         </React.Fragment>
-    );
-};
-
-const DesktopSubNav = ({ label, href, subLabel }) => {
-    return (
-        <Box
-            as="a"
-            href={href}
-            role={"group"}
-            display={"block"}
-            p={2}
-            rounded={"md"}
-            _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}
-        >
-            <Stack direction={"row"} align={"center"}>
-                <Box>
-                    <Text
-                        transition={"all .3s ease"}
-                        _groupHover={{ color: "pink.400" }}
-                        fontWeight={500}
-                    >
-                        {label}
-                    </Text>
-                    <Text fontSize={"sm"}>{subLabel}</Text>
-                </Box>
-                <Flex
-                    transition={"all .3s ease"}
-                    transform={"translateX(-10px)"}
-                    opacity={0}
-                    _groupHover={{
-                        opacity: "100%",
-                        transform: "translateX(0)",
-                    }}
-                    justify={"flex-end"}
-                    align={"center"}
-                    flex={1}
-                >
-                    <Icon
-                        color={"pink.400"}
-                        w={5}
-                        h={5}
-                        as={ChevronRightIcon}
-                    />
-                </Flex>
-            </Stack>
-        </Box>
     );
 };
 

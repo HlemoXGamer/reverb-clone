@@ -1,7 +1,11 @@
-import { Heading } from "@chakra-ui/react";
+import { Heading, Container } from "@chakra-ui/react";
 
 const HomePage = () => {
-    return <Heading p={10}>Home Page</Heading>;
+    return (
+        <Container maxW={"8xl"}>
+            <Heading py={10}>Home Page</Heading>
+        </Container>
+    );
 };
 
 export default HomePage;

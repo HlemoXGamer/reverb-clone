@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Components
 import TheLogo from "../../../Common/TheLogo";
 import SearchBar from "../../../Common/SearchBar";
 
+// Chakra Components
 import { Box, Container, Stack } from "@chakra-ui/layout";
 import { Button } from "@chakra-ui/button";
 
+// React Icons Components
 import { BsCart2 } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BiUser } from "react-icons/bi";

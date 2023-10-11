@@ -1,5 +1,6 @@
 import React from "react";
 
+// Components
 import TheFooter from "../components/UI/TheFooter/TheFooter";
 import TheHeader from "../components/UI/TheHeader/TheHeader";
 import TheRoutes from "../TheRoutes";

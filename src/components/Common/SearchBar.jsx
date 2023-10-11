@@ -1,6 +1,9 @@
 import React from "react";
 
+// Chakara Components
 import { Input, InputGroup, InputRightElement } from "@chakra-ui/react";
+
+// Chakara Icons
 import { Search2Icon } from "@chakra-ui/icons";
 
 const SearchBar = () => {

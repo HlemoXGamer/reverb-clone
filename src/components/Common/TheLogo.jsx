@@ -1,5 +1,8 @@
 import React from "react";
+
+// Chakra Component
 import { Heading } from "@chakra-ui/react";
+
 const TheLogo = () => {
     return (
         <React.Fragment>

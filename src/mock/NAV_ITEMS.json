@@ -1,0 +1,110 @@
+[
+    {
+        "label": "All Categories",
+        "children": [
+            {
+                "label": "Cameras",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            },
+            {
+                "label": "Lenses",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            }
+        ]
+    },
+    {
+        "label": "Home",
+        "children": [
+            {
+                "label": "Cameras",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            },
+            {
+                "label": "Lenses",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            }
+        ]
+    },
+    {
+        "label": "Shop",
+        "children": [
+            {
+                "label": "Cameras",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            },
+            {
+                "label": "Lenses",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            }
+        ]
+    },
+    {
+        "label": "About"
+    },
+    {
+        "label": "Blog"
+    },
+    {
+        "label": "Contact"
+    },
+    {
+        "label": "All Categories",
+        "children": [
+            {
+                "label": "Cameras",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            },
+            {
+                "label": "Lenses",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            }
+        ]
+    },
+    {
+        "label": "Home",
+        "children": [
+            {
+                "label": "Cameras",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            },
+            {
+                "label": "Lenses",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            }
+        ]
+    },
+    {
+        "label": "Shop",
+        "children": [
+            {
+                "label": "Cameras",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            },
+            {
+                "label": "Lenses",
+                "subLabel": "Trending Design to inspire you",
+                "href": "#"
+            }
+        ]
+    },
+    {
+        "label": "About"
+    },
+    {
+        "label": "Blog"
+    },
+    {
+        "label": "Contact"
+    }
+]

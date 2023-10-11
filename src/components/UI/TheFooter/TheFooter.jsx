@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+
+// Chakara Components
 import {
     Box,
     Container,
@@ -7,13 +9,16 @@ import {
     Text,
     useColorModeValue,
 } from "@chakra-ui/react";
-import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
-import TheLogo from "../../Common/TheLogo";
 
+// React Icons
+import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
+
+// Components
+import TheLogo from "../../Common/TheLogo";
 import ListHeader from "./parts/ListHeader";
 import SocialButton from "./parts/SocialButton";
 
-export default function TheFooter() {
+const TheFooter = () => {
     return (
         <Box
             bg={useColorModeValue("gray.50", "gray.900")}
@@ -86,7 +91,7 @@ export default function TheFooter() {
                     justify={{ md: "space-between" }}
                     align={{ md: "center" }}
                 >
-                    <Text>© 2022 Chakra Templates. All rights reserved</Text>
+                    <Text>© 2022 Softigital. All rights reserved</Text>
                     <Stack direction={"row"} spacing={6}>
                         <SocialButton label={"Twitter"} href={"#"}>
                             <FaTwitter />
@@ -102,4 +107,6 @@ export default function TheFooter() {
             </Box>
         </Box>
     );
-}
+};
+
+export default TheFooter;
