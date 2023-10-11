@@ -14,7 +14,7 @@ import { BiUser } from "react-icons/bi";
 const TopNav = () => {
     return (
         <React.Fragment>
-            <Container maxW="xxl">
+            <Container maxW="1330px">
                 <Box
                     display="flex"
                     alignItems="center"
