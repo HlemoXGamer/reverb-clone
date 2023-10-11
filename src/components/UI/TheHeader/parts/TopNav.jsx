@@ -31,8 +31,6 @@ const TopNav = () => {
                         <BsCart2 size={30} />
                         <AiOutlineHeart size={30} />
                         <BiUser size={30} />
-                    </Box>
-                    <Box display="flex" gap={5}>
                         <Button>
                             <Link to="/signup">Sign In</Link>
                         </Button>

@@ -2,13 +2,13 @@ import React from "react";
 
 import TheFooter from "../components/UI/TheFooter";
 import TheHeader from "../components/UI/TheHeader/TheHeader";
-import MyRoutes from "../TheRoutes";
+import TheRoutes from "../TheRoutes";
 
 const MainLayout = () => {
     return (
         <React.Fragment>
             <TheHeader />
-            <MyRoutes />
+            <TheRoutes />
             <TheFooter />
         </React.Fragment>
     );

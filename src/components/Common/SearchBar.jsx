@@ -6,7 +6,7 @@ import { Search2Icon } from "@chakra-ui/icons";
 const SearchBar = () => {
     return (
         <React.Fragment>
-            <InputGroup borderRadius={5} width="xl">
+            <InputGroup borderRadius={5} width="2xl">
                 <Input
                     type="text"
                     placeholder="Search..."
