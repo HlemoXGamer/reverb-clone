@@ -1,7 +1,7 @@
 import React from "react";
 
 import TheFooter from "../components/UI/TheFooter";
-import TheHeader from "../components/UI/TheHeader";
+import TheHeader from "../components/UI/TheHeader/TheHeader";
 import MyRoutes from "../TheRoutes";
 
 const MainLayout = () => {
