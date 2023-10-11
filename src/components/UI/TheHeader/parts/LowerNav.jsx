@@ -132,8 +132,8 @@ const LowerNav = () => {
     const popoverContentBgColor = useColorModeValue("white", "gray.800");
     return (
         <React.Fragment>
-            <Container maxW={"1330px"} p={0}>
-                <Stack direction={"row"} spacing={4} m={5}>
+            <Container maxW={"8xl"}>
+                <Stack direction={"row"} spacing={4}>
                     {NAV_ITEMS.map((navItem, index) => (
                         <Box key={navItem.label + index}>
                             <Popover

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import TheLogo from "../../../Common/TheLogo";
 import SearchBar from "../../../Common/SearchBar";
 
-import { Box, Container } from "@chakra-ui/layout";
+import { Box, Container, Stack } from "@chakra-ui/layout";
 import { Button } from "@chakra-ui/button";
 
 import { BsCart2 } from "react-icons/bs";
@@ -14,7 +14,7 @@ import { BiUser } from "react-icons/bi";
 const TopNav = () => {
     return (
         <React.Fragment>
-            <Container maxW="1330px">
+            <Container as={Stack} maxW={"8xl"} pt={10} pb={5}>
                 <Box
                     display="flex"
                     alignItems="center"

@@ -1,6 +1,6 @@
 import React from "react";
 
-import TheFooter from "../components/UI/TheFooter";
+import TheFooter from "../components/UI/TheFooter/TheFooter";
 import TheHeader from "../components/UI/TheHeader/TheHeader";
 import TheRoutes from "../TheRoutes";
 
