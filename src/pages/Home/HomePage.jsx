@@ -1,10 +1,13 @@
-import { Heading, Container } from "@chakra-ui/react";
+import { Container } from "@chakra-ui/react";
+import React from "react";
+import HomeCarousel from "../../components/Home/Carousel/HomeCarousel";
 
 const HomePage = () => {
     return (
-        <Container maxW={"8xl"}>
-            <Heading py={10}>Home Page</Heading>
-        </Container>
+        <React.Fragment>
+            <HomeCarousel />
+            <Container maxW={"8xl"}></Container>
+        </React.Fragment>
     );
 };
 
