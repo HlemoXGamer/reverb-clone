@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Components
-import TheLogo from "../../../Common/TheLogo";
-import SearchBar from "../../../Common/SearchBar";
+import TheLogo from "../../../../Common/TheLogo";
+import SearchBar from "../../../../Common/SearchBar";
 
 // Chakra Components
 import { Box, Container, Stack } from "@chakra-ui/layout";
