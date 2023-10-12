@@ -1,7 +1,7 @@
 /* Global Css */
 
 /* Hover Effect On Links */
-a {
+a:not(.btn) {
     background-image: linear-gradient(to right,
             #54b3d6,
             #54b3d6 50%,
@@ -16,7 +16,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-a:before {
+a:not(.btn)::before {
     content: '';
     background: #54b3d6;
     display: block;
@@ -28,10 +28,10 @@ a:before {
     transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+a:not(.btn):hover {
     background-position: 0;
 }
 
-a:hover::before {
+a:not(.btn):hover::before {
     width: 100%;
 }
