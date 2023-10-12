@@ -3,7 +3,7 @@
 import { Grid, GridItem, Box } from "@chakra-ui/react";
 
 // Components
-import ProductCard from "./parts/ProductCard/ProductCard";
+import ProductCard from "./ProductCard/ProductCard";
 
 // Mocks
 import Products from "../../../mock/PRODUCTS.json";

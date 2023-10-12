@@ -1,4 +1,4 @@
-import { Container } from "@chakra-ui/react";
+import { Container, Box } from "@chakra-ui/react";
 import React from "react";
 import HomeCarousel from "../../components/Home/Carousel/HomeCarousel";
 import HomeTestimonials from "../../components/Home/Testimonials/HomeTestimonials";
@@ -12,6 +12,8 @@ const HomePage = () => {
                 <HomeTestimonials />
                 <HomeProducts title="New Arrivals" />
                 <HomeProducts title="Great Offers !" simplified={true} />
+                {/* Giving Some Space */}
+                <Box py={20} />
                 <HomeProducts title="Top Selling Products" simplified={true} />
             </Container>
         </React.Fragment>

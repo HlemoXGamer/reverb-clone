@@ -10,7 +10,7 @@ import {
     Tooltip,
 } from "@chakra-ui/react";
 import { FiShoppingCart } from "react-icons/fi";
-import Rating from "./parts/ProductRating";
+import Rating from "./ProductRating";
 
 function ProductCard({ product }) {
     return (
