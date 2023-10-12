@@ -3,6 +3,7 @@ import React from "react";
 import HomeCarousel from "../../components/Home/Carousel/HomeCarousel";
 import HomeTestimonials from "../../components/Home/Testimonials/HomeTestimonials";
 import HomeProducts from "../../components/Home/Products/HomeProducts";
+import HomeFeatures from "../../components/Home/Features/HomeFeatures";
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
                 {/* Giving Some Space */}
                 <Box py={20} />
                 <HomeProducts title="Top Selling Products" simplified={true} />
+                <HomeFeatures />
             </Container>
         </React.Fragment>
     );
