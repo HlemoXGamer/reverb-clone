@@ -22,24 +22,56 @@ const TopNav = () => {
                     display="flex"
                     alignItems="center"
                     justifyContent="space-between"
+                    flexWrap={{
+                        base: "wrap",
+                        md: "nowrap",
+                        lg: "nowrap",
+                        xl: "nowrap",
+                    }}
                 >
                     <Box display="flex" gap="5">
-                        <TheLogo />
+                        <TheLogo
+                            display={{
+                                base: "none",
+                                md: "-webkit-box",
+                                lg: "-webkit-box",
+                                xl: "-webkit-box",
+                                "2xl": "-webkit-box",
+                            }}
+                        />
                         <SearchBar />
                         <Button colorScheme="blue" variant="outline" px="5">
                             SELL
                         </Button>
                     </Box>
-                    <Box display="flex" gap="5">
-                        <BsCart2 size={30} />
-                        <AiOutlineHeart size={30} />
-                        <BiUser size={30} />
-                        <Button>
-                            <Link to="/signup">Sign In</Link>
-                        </Button>
-                        <Button>
-                            <Link to="/signin">Sign Up</Link>
-                        </Button>
+                    <Box
+                        display="flex"
+                        gap={5}
+                        justifyContent={{
+                            base: "space-between",
+                            md: "flex-end",
+                            lg: "flex-end",
+                            xl: "flex-end",
+                        }}
+                        pt={{
+                            base: "10",
+                            md: "0",
+                        }}
+                        width={"100%"}
+                    >
+                        <Box display="flex" gap="5">
+                            <BsCart2 size={30} />
+                            <AiOutlineHeart size={30} />
+                            <BiUser size={30} />
+                        </Box>
+                        <Box display="flex" gap="5">
+                            <Button>
+                                <Link to="/signup">Sign In</Link>
+                            </Button>
+                            <Button>
+                                <Link to="/signin">Sign Up</Link>
+                            </Button>
+                        </Box>
                     </Box>
                 </Box>
             </Container>

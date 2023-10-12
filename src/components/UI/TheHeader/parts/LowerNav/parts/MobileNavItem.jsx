@@ -22,11 +22,13 @@ const MobileNavItem = ({ label, children, href }) => {
                 py={2}
                 as="a"
                 href={href ?? "#"}
+                display="flex"
                 justifyContent="space-between"
                 alignItems="center"
                 _hover={{
                     textDecoration: "none",
                 }}
+                className="btn"
             >
                 <Text
                     fontWeight={600}

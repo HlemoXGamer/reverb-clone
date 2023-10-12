@@ -18,6 +18,7 @@ import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 // Components
 import DesktopNav from "./parts/DesktopNax";
 import MobileNav from "./parts/MobileNav";
+import TheLogo from "../../../../Common/TheLogo";
 
 const LowerNav = () => {
     const { isOpen, onToggle } = useDisclosure();
@@ -60,6 +61,17 @@ const LowerNav = () => {
                         <Flex display={{ base: "none", md: "flex" }} ml={10}>
                             <DesktopNav />
                         </Flex>
+                    </Flex>
+                    <Flex>
+                        <TheLogo
+                            display={{
+                                base: "-webkit-box",
+                                md: "none",
+                                lg: "none",
+                                xl: "none",
+                                "2xl": "none",
+                            }}
+                        />
                     </Flex>
                 </Flex>
 
